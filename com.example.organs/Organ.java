@@ -9,6 +9,10 @@ public class Organ {
         this.name = name;
     }
 
+    public void doSth () {
+        System.out.println("Doing sth...");
+    }
+
     public int getHealth_level() {
         return this.health_level;
     }
