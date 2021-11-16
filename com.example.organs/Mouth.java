@@ -4,8 +4,8 @@ public class Mouth extends Organ {
 
     private Boolean cleanTeeth;
     
-    public Mouth(int health_level, String name, Boolean cleanTeeth) {
-        super(health_level, name);
+    public Mouth(int health_level, String name, Boolean cleanTeeth, Man man) {
+        super(health_level, name, man);
         this.cleanTeeth = cleanTeeth;
     }
 

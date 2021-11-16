@@ -2,11 +2,13 @@ public class Organ {
 
     private int health_level;
     private String name;
+    private Man man;
 
 
-    public Organ(int health_level, String name) {
+    public Organ(int health_level, String name, Man man) {
         this.health_level = health_level;
         this.name = name;
+        this.man = man;
     }
 
     public void doSth () {
@@ -28,6 +30,14 @@ public class Organ {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Man getMan() {
+        return this.man;
+    }
+
+    public void setMan(Man man) {
+        this.man = man;
     }
     
 

@@ -1,7 +1,7 @@
-public class LeftEye extends Organ {
+public class LeftEye extends RightEye {
     
 
-    public LeftEye(int health_level, String name) {
-        super(health_level, name);
+    public LeftEye(int health_level, String name, Man man) {
+        super(health_level, name, man);
     }
 }

@@ -1,17 +1,22 @@
 import java.util.Scanner;
 
 public class Funcs {
+    
+    public Man man;
 
-    RightEye rEye = new RightEye(2, "Right Blue Eye");
-    LeftEye lEye = new LeftEye(5, "Left Blue Eye");
-    Mouth mouth = new Mouth(4, "Mouth", false);
-    Stomach stomach = new Stomach(3, "Stomach");
+    public Funcs(Man man) {
+        this.man = man;
+    }
+
+    RightEye rEye = new RightEye(2, "Right Blue Eye", man);
+    LeftEye lEye = new LeftEye(5, "Left Blue Eye", man);
+    Mouth mouth = new Mouth(4, "Mouth", false, man);
+    Stomach stomach = new Stomach(3, "Stomach", man);
     
     Organ[] organs = {rEye, lEye, mouth, stomach};
     Organ myOrgan = null;
 
     Scanner sc = new Scanner(System.in);
-
 
     public void getWelcome() {
 

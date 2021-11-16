@@ -2,8 +2,9 @@ public class Main {
     
     public static void main (String[]args) {
     
-        Funcs funcs = new Funcs();
-        System.out.println("Welcome by the doctor!");
+        Man patient = new Man("John", false, false);
+        Funcs funcs = new Funcs(patient);
+        System.out.println("Welcome by the doctor, " + patient.getName());
         funcs.getWelcome();
     }
 }  
