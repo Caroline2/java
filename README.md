@@ -14,9 +14,8 @@
 <br />   
 
 <blockquote>
-<b>13 November 2021 Status:</b><br /> 
-All classes have at leas a demo version. <code>Mouth.java</code> is complete, <code>getWelcome()</code> and <code>organFunc(Organ myOrgan)</code>
-added into <code>Funcs.java</code>.
+<b>16 November 2021 Status:</b><br /> 
+  Funcs ready, just need to be synced with the <code>Man</code> object.
 </blockquote><br>
 
 </body>
