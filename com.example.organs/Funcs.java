@@ -10,7 +10,7 @@ public class Funcs {
 
     RightEye rEye = new RightEye(2, "Right Blue Eye", man);
     LeftEye lEye = new LeftEye(5, "Left Blue Eye", man);
-    Mouth mouth = new Mouth(4, "Mouth", false, man);
+    Mouth mouth = new Mouth(4, "Mouth", man);
     Stomach stomach = new Stomach(3, "Stomach", man);
     
     Organ[] organs = {rEye, lEye, mouth, stomach};
@@ -63,7 +63,7 @@ public class Funcs {
 
     public void organFunc(Organ myOrgan) {
 
-        myOrgan.doSth();
+        myOrgan.doSth(man);
         System.out.println("The operation was formed. Wanna check the other organs too?");
         System.out.println("1. Yes, please!");
         System.out.println("2. (or any other number) No, terminate the app.");

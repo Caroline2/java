@@ -5,13 +5,14 @@ public class Stomach extends Organ{
     }
 
     @Override
-    public void doSth() {
+    public void doSth(Man man) {
     System.out.println("Processing digestion...");
     try {
         Thread.sleep(500);
         } 
     catch(InterruptedException intrx){/* */}   
-    System.out.println("Digested.");    
+    System.out.println("Digested.");
+    man.setDigested(true);
     }
 
 }

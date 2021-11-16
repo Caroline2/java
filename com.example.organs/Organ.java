@@ -11,7 +11,7 @@ public class Organ {
         this.man = man;
     }
 
-    public void doSth () {
+    public void doSth (Man man) {
         System.out.println("Doing sth...");
     }
 
