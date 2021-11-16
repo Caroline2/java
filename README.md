@@ -12,11 +12,6 @@
 <p>In <code>Funcs.java</code> you can find the functions used to run the application. 
 <code>LeftEye.java</code>, <code>RightEye.java</code>, <code>Mouth.java</code> and <code>Stomach.java</code> classes represent some bodily organs extended from <code>Organ.java</code>.</p>
 <br />   
-
-<blockquote>
-<b>16 November 2021 Status:</b><br /> 
-  Funcs ready, just need to be synced with the <code>Man</code> object.
-</blockquote><br>
-
+  
 </body>
 </html>
